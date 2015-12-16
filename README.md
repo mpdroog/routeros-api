@@ -5,6 +5,22 @@ This class was originally written by Denis Basta and updated by several contribu
 
 Mikrotik Wiki page at http://wiki.mikrotik.com/wiki/API_PHP_class
 
+## Composer?
+```
+{
+    "require": {
+        "mpdroog/routeros-api": "master",
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mpdroog/routeros-api"
+        }
+    ]
+}
+```
+
 ## Contributors (before moving to Git)
 * Nick Barnes
 * Ben Menking (ben [at] infotechsc [dot] com)
@@ -16,3 +32,5 @@ Mikrotik Wiki page at http://wiki.mikrotik.com/wiki/API_PHP_class
 
 Please see git logs.  Version 1.0 through current version have been preserved in this Git repo.
 
+# Links
+http://wiki.mikrotik.com/wiki/API_PHP_class
