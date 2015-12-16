@@ -1,0 +1,14 @@
+{
+    "name": "mpdroog/routeros-api,
+    "description": "Client API for RouterOS/Mikrotik",
+    "homepage": "https://github.com/BenMenking/routeros-api",
+    "license": [],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "RouterOS\\": "./"
+        }
+    }
+}
