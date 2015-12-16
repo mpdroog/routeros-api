@@ -1,4 +1,6 @@
 <?php
+namespace RouterOS;
+
 /*****************************
  *
  * RouterOS PHP API class v1.6
@@ -15,7 +17,7 @@
  *
  ******************************/
 
-class RouterosAPI
+class RouterOSAPI
 {
     var $debug     = false; //  Show debug information
     var $connected = false; //  Connection state
